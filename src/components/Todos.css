@@ -1,0 +1,47 @@
+.mainCOntainer{
+    width: 100%;
+    height:100vh ;
+    
+    display: flex;
+    justify-content: center;
+}
+.todoItemCOntainer{
+    display: flex;
+    margin: 10px;
+
+}
+.todosContainer{
+    margin-top: 1rem;
+}
+.addBtn{
+    width: 100px;
+    height: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.todoInputStyle{
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.todosContainer{
+    background: rgb(154, 149, 149);
+    padding: 10px;
+}
+.deleteBtn{
+    margin-left: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 5px;
+    color: red;
+}
+.todoTitle{
+    margin-left: 10px;
+    font-size: 1.5rem;
+    color: white;
+   
+}
